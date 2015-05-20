@@ -1,0 +1,519 @@
+@charset "utf-8";
+/* CSS Document */
+/* ******************************************************************** */
+/* main logo */
+html { 
+  margin:0;
+  padding:0;
+  background: url("images/bg.jpg") no-repeat center fixed; 
+  -webkit-background-size: cover; /* pour Chrome et Safari */
+  -moz-background-size: cover; /* pour Firefox */
+  -o-background-size: cover; /* pour Opera */
+  background-size: cover; /* version standardisée */
+}
+
+*{padding:0;margin:0;}
+
+body{
+	width: 980px;
+	/*height: 800px;*/
+	margin: 0 auto;
+	/*border: 1px solid blue;*/
+}
+
+#wrapper{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+	
+#container {
+text-align: left;
+}
+
+#logo{
+position:absolute;
+top:0px;	 
+left:-20px;
+z-index:1000;
+}
+
+
+#header{
+position: absolute;
+top:37px; 
+left:15px;
+width: 80%;
+background-repeat: repeat-x
+border: 1px solid black;
+}
+
+.bouton{
+	position: relative;
+	float: right;
+	margin: 110px 5px 0 0;
+	list-style-type: none;
+}
+
+.border{
+	position: relative;
+	float: right;
+	margin: 5px 0 0 0;
+	padding: 2px 15px;
+	width: 150px;
+	color: #fff;
+	font-size: 20px;	
+	font-family: arial, sans-serif;
+	border: 1px solid #fff;
+	text-align: center;
+}
+
+.border:hover{
+	background-color: #fff;
+	color:#ee1069;
+	border: 1px solid #FFF;
+	cursor: pointer;
+}
+
+#fb{
+position: relative;
+float: right;
+width: 60px;
+margin: 180px 60px 0 0px;
+	}
+
+/* ******************************************************************** */
+/* main nav */
+#nav {
+	position: absolute;
+	top: 40px;
+	left: 120px;
+	z-index:993;
+	text-align: right;
+}
+
+
+dl{
+width:120px;
+height:20px;
+top:20px;
+margin:0; padding:0;
+display: block;
+float:left;
+font-family:arial;
+z-index: 99994;
+f
+}
+
+dt{
+height:20px;
+display:block;
+color:.;
+width:130px;
+text-align:center;
+text-decoration:none;
+color:white;
+z-index: 99995;
+vertical-align: middle;
+}
+
+dd{
+display:block;
+margin:0;
+padding:0;
+background:;
+top:0px;
+z-index: 99996;
+}
+
+dd ul{
+margin:0;padding:0;
+text-align:center;
+list-style:none;
+top:0px;
+z-index: 99997;
+}
+
+dd ul li a{
+color:.;
+text-decoration:none;
+line-height:30px;
+z-index: 99998;
+}
+
+dl dd{
+display:none;
+z-index: 99999;
+}
+
+dl:hover dd{
+position:absolute;	
+top:20px;	
+width:120px;
+z-index: 100;
+color:black;	
+display:block;
+background-image:url("images/hover.jpg");
+}
+
+a{
+color:white;	
+text-decoration:none;
+
+}
+
+a:hover{
+color:black;
+}
+/* ******************************************************************** */
+/* main actu */
+#zoom_container{
+background:url("images/fond_img_zoom.png");
+position:absolute;
+top:120px;
+left:280px;
+width:642px;
+height:348px;}
+
+#zoom{
+position:absolute;
+top:11px;
+left:18px;
+}
+
+#convoc{
+	position: relative;
+	top:80px;
+	left:100px;
+}
+
+#actu_container{
+background:url("images/fond_img2.png");
+position:absolute;
+top:300px;
+right:0px;
+width:334px;
+height:443px;
+border: 1px solid red;
+}
+
+hr{
+width:310px;
+height:0,5px;
+position:absolute;
+left:8px;
+top:30px;
+color:pink;
+}	
+
+h1{
+font:Arial, Helvetica, sans-serif;
+font-size:19px;
+position:absolute;
+left:25px;	
+top:0px;
+color:#e2007a;
+}
+
+#actu_infos1{
+font:"Trebuchet MS", Arial,Helvetica, sans-serif;
+position:absolute;
+top:50px;
+left:10px;
+line-height:1.8;
+}
+
+#actu_infos1 hr{
+position:absolute;
+top:80px;
+left:4px;}
+
+#a_actu{
+color:#e2007a;
+size:18px;
+text-decoration:underline;
+}
+/*
+******************************************************************** */
+/* main eq */
+
+#conteneur{
+	position: relative;
+	float: left;
+	width: 825px;
+	height: 400px;
+	margin: 60px 125px;
+	font-family: Arial, Helvetica, sans-serif
+}
+
+#nom_equ{
+	position: relative;
+	float: left;
+	width: 200px;
+	color: #fff;
+	margin: 20px 300px 10px 300px;
+}
+
+#nom_equ_2{
+	position: relative;
+	float: left;
+	width: 200px;
+	color: #fff;
+	margin: 75px 300px 10px 300px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#photo_equ{
+	position: relative;
+	float: left;
+	border: 5px solid #fff;
+	width: 640px;
+}
+
+#coach{
+	position: relative;
+	float: right;
+	width: 145px;
+	text-align: center;
+}
+
+#coach_2{
+	position: absolute;
+	float: right;
+	width: 145px;
+	text-align: center;
+	right: 10px;
+	bottom: 125px;
+}
+
+#coach_3{
+	position: absolute;
+	float: right;
+	top: 75px;
+	right: 55px;
+	width: 100px;
+	text-align: center;
+}
+
+#coach_title{
+	position: relative;
+	float: left; 
+	color: #fff;	
+	margin: 5px 50px;
+}
+
+#coach_eq{
+	position: relative;
+	float: left;
+	margin: 0px 15px;
+	width: 75%;
+	border: 3px solid #fff;
+}
+
+#nom_coach{
+	position: relative;
+	float: left;
+	color: #fff;
+	margin: 3px 20px;
+	font-size: 15px;
+}
+
+#resultats{
+	position: relative;
+	float: right;
+	width: 140px;
+	margin: 50px 0;
+}
+
+#resultats_2{
+	position: absolute;
+	float: right;
+	width: 140px;
+	margin: 50px 0;
+	right: 5px;
+	bottom: -41px;
+	top: 400px;
+}
+
+
+
+/*
+******************************************************************** */
+/* main partenaires */
+
+#img_sponsors{
+position:absolute;
+top:20px;
+left:30px;}
+	
+#text_partenaires{
+font-family:Arial, Helvetica, sans-serif;
+position:absolute;
+top:470px;
+left:400px;
+color:white;}	
+
+/*
+******************************************************************** */
+/* main bureau */
+
+#photo_bur{
+  position: relative;
+  top:80px;
+  left :200px;
+  border: 5px solid white;
+}
+
+#membres{
+position: relative;
+top: 80px;
+left: 20px;
+width: 450px; 
+color:white;
+font-family: Arial, sans-serif;
+line-height: 2;
+}
+
+#membres2{
+position: relative;
+top: -80px;
+left: 350px; 
+width: 450px;
+color:white;
+font-family: Arial, sans-serif;
+line-height: 2;
+}
+
+#actu #left_content #actu_container #actu_infos1 {
+	font-family: Arial, Helvetica, sans-serif;
+}
+#actu #actu_container #actu_infos1 {
+	font-family: Arial Black, Gadget, sans-serif;
+}
+#actu #actu_container #actu_infos1 {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/*
+******************************************************************** */
+/* main contact */
+
+#text_contact{
+	position:relative;
+	top:50px;
+	left:80px;
+	line-height:3;
+	color: white;
+}
+#article #text_contact {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#text_contact a{
+	color:#e2007a;}
+	
+#text_contact a:hover{
+	color:white;}
+  
+ /*
+******************************************************************** */
+/* main slider */ 	
+	
+.nivoSlider {
+    position:relative;
+    background:url("images/loading.gif") no-repeat 50% 50%;
+}
+.nivoSlider img {
+    position:absolute;
+    top:0px;
+    left:0px;
+    display:none;
+}
+.nivoSlider a {
+    border:0;
+    display:block;
+}
+
+/*
+******************************************************************** */
+/* main boutique */
+
+.img_boutique{
+	position: relative;
+	float: left;
+	margin: 10px 25px 25px 30px;
+} 	
+
+.text_boutique{
+	position: relative;
+	float: left;
+	width: 150px;
+	margin: 10px 15px 15px 30px;
+	color: #fff;
+}
+
+#conteneur_tbout{
+	position: relative;
+	float: left;
+	padding: 0;
+	margin:5px -20px;
+	width: 100%
+}
+
+#fleche_gal{
+	position: relative;
+	top: 350px;
+
+}
+
+#comm{
+	position: relative;
+	float: right;
+	margin: -100px 0;
+}
+
+#mentions{
+position: fixed;
+bottom:0px;
+left:600px;
+font-family: arial, sans-serif;
+}
+
+#article{
+height:100%;
+width:100%;
+position:absolute;
+top:150px;
+
+}
+
+.bxslider{
+	position: relative;
+}
+
+.hr_evenements{
+	position: relative;
+	float: left;
+	color: #fff;
+	width: 650px;
+	margin: 10px 0 10px 0;
+	text-align: center;
+}
+
+.p_event{
+	width:880px;
+	height: 300px;
+	margin:20px 10px;
+	text-align:justify;
+	font-family:arial; 
+	line-height:1.5;
+	border-bottom: 1px solid #fff;
+}
+
+.comm{
+	position: relative;
+	float: left;
+	margin: 50px 0;
+	line-height: 1.5;
+	color: #ffffff;
+}
